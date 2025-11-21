@@ -11,18 +11,16 @@ Colorado.
 ## Repository Structure
 
 - `Project_Data/`
-  - Processed datasets used in the analysis (e.g., front lists, composite
+  - Processed datasets used in the analysis (e.g., front lists such as All, LP, HP, composite
     fields, and other derived variables).
-  - These are *analysis-ready* files; large/raw source datasets (e.g. ERA5,
-    HRRR, CESM outputs) are **not** included due to size and distribution
-    restrictions.
+  - These are *analysis-ready* files; large/raw source datasets from ERA5 and are **not** included due to size and distribution restrictions.
 
 - `Python_Notebooks/`
   - Jupyter notebooks used to:
     - build the strong cold front climatology,
     - compute and visualize environmental composites,
-    - evaluate forecast skill and teleconnection relationships,
-    - create most figures shown in the manuscript.
+    - evaluate statistics and teleconnection relationships,
+    - create all figures shown in the manuscript.
 
 - `README.md`
   - This file.
