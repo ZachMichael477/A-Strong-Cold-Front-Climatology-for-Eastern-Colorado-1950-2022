@@ -6,6 +6,9 @@ It accompanies the manuscript that documents the climatology, environmental
 composites, and forecast evaluation of strong cold fronts impacting eastern
 Colorado.
 
+The datasets provided in Project_Data/ are processed, derived products created specifically for this study (e.g., front lists, composites, teleconnection-labeled cases).
+They may be used for academic research, teaching, or reproducibility efforts. Please credit this project and repository when using them.
+
 ---
 
 ## Repository Structure
@@ -17,13 +20,13 @@ Colorado.
 
 - `Python_Notebooks/`
   - Jupyter notebooks used to:
-    - build the strong cold front climatology,
-    - compute and visualize environmental composites,
-    - evaluate statistics and teleconnection relationships,
-    - create all figures shown in the manuscript.
+    - build the strong cold front climatology from 1950-2022,
+    - compute and visualize environmental composites (temp, winds, FGEN, MSLP, etc.),
+    - evaluate statistics and teleconnection relationships such as AO, ENSO, and MJO,
+    - generate figures shown in the manuscript.
 
 - `README.md`
-  - This file.
+  - Overview of the project and instructions for use.
 
 ---
 
